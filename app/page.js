@@ -1,6 +1,13 @@
+import React from 'react'
+import Home from './component/Home/Home'
 
-export default function Home() {
+const page = () => {
   return (
-    <h1 className="text-center mt-9">Hello, Next.js!</h1>
-  );
+    <div className='h-[2000px]'>
+      <Home />
+      </div>
+  )
 }
+
+export default page
+
